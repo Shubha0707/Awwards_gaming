@@ -6,7 +6,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 
 gsap.registerPlugin(ScrollTrigger) 
-const hero = () => {
+const Hero = () => {
     const [currentIndex, setcurrentIndex] = useState(1);
 
     const [hasClicked, sethasClicked] = useState(false);
@@ -146,4 +146,4 @@ const hero = () => {
     )
 }
 
-export default hero 
+export default Hero 
